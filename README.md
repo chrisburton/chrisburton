@@ -13,5 +13,5 @@
 
 - 👨‍💻 All of my SQL projects are available [here](https://github.com/chrisburton/chrisburton/tree/main/SQL)
 
-- 📫 You can contact me through [linkedin](https://www.linkedin.com/in/martin-s-8002a0157) or by [email](mailto:chris@chrisburton.me)
+- 🤝 Let's connect through [linkedin](https://www.linkedin.com/in/martin-s-8002a0157) or by [email](mailto:chris@chrisburton.me)
 
