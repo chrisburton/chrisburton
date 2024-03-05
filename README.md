@@ -4,3 +4,4 @@
 # <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" alt="👋" width="28" >&nbsp; Hi, I'm Chris
 
 ### Click [here](https://github.com/chrisburton/SQL) to visit my SQL Portfolio or reach out via [LinkedIn](https://www.linkedin.com/in/imchrisburton) if you have any questions.
+<br><br><br>
