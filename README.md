@@ -7,7 +7,7 @@ This repository contains examples of SQL I've written. Feel free to take a look 
 
 <br>
 
-### <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" alt="👋" width="25"> &nbsp; Hi, I'm Chris - 
+### <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" alt="👋" width="20"> &nbsp; Hi, I'm Chris 
 &ensp; I'm currently transitioning into data analytics.
 
 - 🌎 I reside in **Virginia**
