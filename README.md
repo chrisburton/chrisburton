@@ -2,24 +2,20 @@
 
 <br>
 
-# <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" alt="👋" width="30"> &nbsp; Hi, I'm Chris
-
-### Welcome to my SQL Portfolio! 
+# Welcome to my SQL Portfolio!
 This repository contains examples of SQL I've written. Feel free to take a look and reach out if you have any questions.
 
 <br>
 
-**About me:**
+### <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" alt="👋" width="25"> &nbsp; Hi, I'm Chris - 
+&ensp; I'm currently transitioning into data analytics.
 
-&ensp; Transitioning into data analytics with proficiency in SQL and Python.
-
-- 🌎 I’m currently living in **Virginia**
+- 🌎 I reside in **Virginia**
 
 - 🧠 I enjoy learning **SQL, Tableau, Python**
 
-- 👨‍💻 All of my SQL projects are available [here](https://github.com/chrisburton/chrisburton/tree/main/SQL)
+- 👨‍💻 My SQL projects are available [here](https://github.com/chrisburton/chrisburton/tree/main/SQL)
 
-- 🤝 Let's connect through [linkedin](https://www.linkedin.com/in/imchrisburton) or by [email](mailto:chris@chrisburton.me)
-
+- 🤝 Let's connect on **[linkedin](https://www.linkedin.com/in/imchrisburton)** or by **[email](mailto:chris@chrisburton.me)**
 
 <br>
