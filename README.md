@@ -9,7 +9,6 @@ This repository contains examples of SQL I've written. Feel free to take a look 
 <br>
 
 > [!NOTE]
-> I'm currently transitioning into data analytics.
 > - 🌎 I reside in **Virginia**
 > - 🧠 I enjoy learning **SQL, Tableau, Python**
 > - 👨‍💻 My SQL projects are available [here](https://github.com/chrisburton/chrisburton/tree/main/SQL)
