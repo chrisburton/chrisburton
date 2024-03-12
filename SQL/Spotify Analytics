@@ -1,1 +1,64 @@
+# For this project, I downloaded Spotify data from Kaggle 
+# https://www.kaggle.com/equinxx/spotify-top-50-songs-in-2021?select=spotify_top50_2021.csv
+# Then, I created a table and inserted the data from the link above.
+# Finally, I performed analytics on the data using SQL. 
 
+# Create Spotifydata table: 
+CREATE TABLE BIT_DB.Spotifydata (
+    id integer PRIMARY KEY,
+    artist_name varchar NOT NULL,
+    track_name varchar NOT NULL,
+    track_id varchar NOT NULL,
+    popularity integer NOT NULL,
+    danceability decimal(4,3) NOT NULL,
+    energy decimal(4,3) NOT NULL,
+    key integer NOT NULL,
+    loudness decimal(5,3) NOT NULL,
+    mode integer NOT NULL,
+    speechiness decimal(5,4) NOT NULL,
+    acousticness decimal(6,5) NOT NULL,
+    instrumentalness text NOT NULL,
+    liveness decimal(5,4) NOT NULL,
+    valence decimal(4,3) NOT NULL,
+    tempo decimal(6,3) NOT NULL,
+    duration_ms integer NOT NULL,
+    time_signature integer NOT NULL 
+);
+
+# Analytics
+
+# Who are the top 10 artists based on popularity?
+SELECT
+    artist_name,
+    AVG(popularity) popularity
+FROM BIT_DB.Spotifydata
+GROUP BY artist_name
+ORDER BY popularity DESC
+LIMIT 10;
+
+-- What are the top 25 longest songs in the dataset? (calculate duration from ms to seconds)
+SELECT
+    artist_name,
+    track_name,
+    (duration_ms / 1000) duration_seconds
+FROM BIT_DB.Spotifydata
+ORDER BY duration_seconds DESC
+LIMIT 25;
+
+# What songs give the most calming energy?
+SELECT
+    artist_name,
+    track_name
+FROM BIT_DB.Spotifydata
+WHERE energy < 0.5
+ORDER BY energy ASC;
+
+# What are the max and minimum valence? (scored between 0-10)
+# (valence measures whether a song will make a person feel happy (high) or sad (low))
+SELECT
+    artist_name,
+    track_name,
+    ROUND((valence * 10), 2) valence
+FROM BIT_DB.Spotifydata
+WHERE valence = (SELECT MAX(valence) FROM BIT_DB.Spotifydata)
+OR valence = (SELECT MIN(valence) FROM BIT_DB.Spotifydata);
