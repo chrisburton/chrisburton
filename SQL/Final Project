@@ -1,0 +1,53 @@
+# What is the total revenue from all invoices?
+SELECT
+    ROUND(SUM(invoices.total)) AS "TotalRevenue"
+FROM invoices;
+
+# How many tracks are there in each genre?
+SELECT
+    genres.Name AS "Genre",
+    COUNT(tracks.TrackId) AS "TotalTracks"
+FROM genres
+JOIN tracks
+ON genres.GenreId = tracks.GenreId
+GROUP BY genres.Name
+ORDER BY genres.Name;
+
+# What are the top 5 selling tracks?
+WITH TrackSales AS (
+    SELECT
+        tracks.TrackId,
+        tracks.Name,
+        SUM(invoice_items.Quantity) AS TotalSold
+    FROM tracks
+    JOIN invoice_items 
+    ON tracks.TrackId = invoice_items.TrackId
+    JOIN invoices ON invoice_items.InvoiceId = invoices.InvoiceId
+    GROUP BY tracks.TrackId
+)
+SELECT
+    TrackId,
+    Name,
+    TotalSold
+FROM TrackSales
+ORDER BY TotalSold DESC
+LIMIT 5;
+
+# Identify our top 5 customers and issue them discount codes.
+SELECT
+    customers.CustomerId,
+    customers.FirstName,
+    customers.LastName,
+    customers.Email,
+    SUM(invoices.total) AS "TotalSpent",
+    SUBSTR(MD5(RANDOM()), 1, 5) || '-' || 
+        SUBSTR(MD5(RANDOM()), 6, 5) || '-' ||
+        SUBSTR(MD5(RANDOM()), 11, 5) || '-' ||
+        SUBSTR(MD5(RANDOM()), 16, 5) 
+        AS "DiscountCode"
+FROM customers
+JOIN invoices
+ON customers.CustomerId = invoices.CustomerId
+GROUP BY customers.CustomerId
+ORDER BY TotalSpent DESC
+Limit 5;
