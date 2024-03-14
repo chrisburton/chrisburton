@@ -1,11 +1,16 @@
-# This analysis utilized the following Fortune 500 dataset:
+# Fortune 500 Analytics
+This analysis utilized the following Fortune 500 dataset:
+<details>
+  <summary>(click to view table)</summary>
 
+
+```sql
 CREATE TABLE fortune_companies (
-  company_id INTEGER PRIMARY KEY,
-  company_name TEXT,
-  industry TEXT,
-  revenue REAL,
-  employees INTEGER,
+    company_id INTEGER PRIMARY KEY,
+    company_name TEXT,
+    industry TEXT,
+    revenue REAL,
+    employees INTEGER,
     healthcare_benefits BIT,
     paid_time_off_days INTEGER,
     maternity_leave_weeks INTEGER,
@@ -57,47 +62,67 @@ VALUES
   ('Company II', 'Telecommunications', 110.5, 2000, 1, 21, 12, 4.9),
   ('Company JJ', 'Manufacturing', 370.0, 3100, 1, 20, 12, 7.6),
   ('Company KK', 'Healthcare', 150.2, 3400, 0, 16, 8, 5.3);
+```
+</details>
 
-# Analysis
+<br>
 
-# Which industry has the highest tenure on average?
+## Analysis
+
+<br>
+
+### Which industry has the highest tenure on average?
+```sql
 SELECT 
-  industry,
-  ROUND(AVG(avg_employee_tenure), 2) AS avg_tenure
+    industry,
+    ROUND(AVG(avg_employee_tenure), 2) AS avg_tenure
 FROM fortune_companies
 GROUP BY industry
 ORDER BY avg_tenure DESC;
+```
 
-# Which companies in particular industries are "High Revenue" or "Low Revenue" based on a revenue threshold?
+<br>
+
+### Which companies in particular industries are "High Revenue" or "Low Revenue" based on a revenue threshold?
+```sql
 SELECT 
-  company_name,
-  industry,
-  revenue,
-  CASE 
-     WHEN revenue >= 250 THEN 'high revenue'
-     ELSE 'low revenue' 
-  END AS revenue_threshold
+    company_name,
+    industry,
+    revenue,
+    CASE 
+        WHEN revenue >= 250 THEN 'high revenue'
+        ELSE 'low revenue' 
+    END AS revenue_threshold
 FROM fortune_companies
 ORDER BY revenue DESC;
+```
 
-# Which companies respect the European ILO minimum maternity leave of 14 weeks?
+<br>
+
+### Which companies respect the European ILO minimum maternity leave of 14 weeks?
+```sql
 SELECT 
-  company_name,
-  maternity_leave_weeks,
-  CASE
-    WHEN maternity_leave_weeks > 14 THEN 'mom friendly'
-    WHEN maternity_leave_weeks = 14 THEN 'acceptable'
-    ELSE 'fail'
-  END maternity_leave_rating
+    company_name,
+    maternity_leave_weeks,
+    CASE
+        WHEN maternity_leave_weeks > 14 THEN 'mom friendly'
+        WHEN maternity_leave_weeks = 14 THEN 'acceptable'
+        ELSE 'fail'
+    END maternity_leave_rating
 FROM fortune_companies
 ORDER BY maternity_leave_weeks DESC;
+```
 
-# Analyze each industry on whether a clear relationship exists between healthcare benefits, paid time off, and average employee tenure.
+<br>
+
+### Analyze each industry on whether a clear relationship exists between healthcare benefits, paid time off, and average employee tenure.
+```sql
 SELECT
-  industry,
-  paid_time_off_days,
-  avg_employee_tenure
+    industry,
+    paid_time_off_days,
+    avg_employee_tenure
 FROM fortune_companies
 WHERE healthcare_benefits = 1
 GROUP BY industry
 ORDER BY avg_employee_tenure DESC;
+```
