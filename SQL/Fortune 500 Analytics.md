@@ -188,3 +188,4 @@ ORDER BY avg_employee_tenure DESC;
 | Technology          | 20                 | 4.5                 |
 </details>
   
+<br>
