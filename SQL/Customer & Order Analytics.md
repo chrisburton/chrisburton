@@ -15,9 +15,13 @@ FROM BIT_DB.JanSales
 WHERE length(orderid) = 6
     AND orderid <> 'Order ID';
 ```
+<details>
+  <summary><b><i>Show result</i></b></summary>
+    
 | total_january_sales |
 |----------------|
 | 9681           |
+</details>
 
 <br>
 
@@ -30,9 +34,13 @@ WHERE Product='iPhone'
     AND length(orderid) = 6
     AND orderid <> 'Order ID';
 ```
+<details>
+  <summary><b><i>Show result</i></b></summary>
+
 | total_january_iphone_sales |
 |----------------|
 | 379            |
+</details>
 
 <br>
 
@@ -46,6 +54,9 @@ INNER JOIN BIT_DB.FebSales Feb
 WHERE length(orderid) = 6
     AND orderid <> 'Order ID';
 ```
+<details>
+  <summary><b><i>Show result</i></b></summary>
+    
 | acctnum   |
 |:---------:|
 | 40161414  |
@@ -59,6 +70,7 @@ WHERE length(orderid) = 6
 | 53139396  |
 | 28100900  |
 |   ...     |
+</details>
 
 <br>
 
@@ -71,9 +83,13 @@ FROM BIT_DB.JanSales
 ORDER BY price ASC 
 LIMIT 1;
 ```
+<details>
+  <summary><b><i>Show result</i></b></summary>
+    
 | product                | price |
 |------------------------|-------|
 | AAA Batteries (4-pack) | 2.99  |
+</details>
 
 <br>
 
@@ -85,6 +101,9 @@ SELECT
 FROM BIT_DB.JanSales
 GROUP BY product;
 ```
+<details>
+  <summary><b><i>Show result</i></b></summary>
+    
 | product                   | revenue            |
 |---------------------------|--------------------|
 |                           | 0                  |
@@ -108,6 +127,7 @@ GROUP BY product;
 | Vareebadd Phone           | 50000              |
 | Wired Headphones          | 12961.19           |
 | iPhone                    | 265300             |
+</details>
 
 <br>
 
@@ -121,9 +141,13 @@ FROM BIT_DB.FebSales
 WHERE location = '548 Lincoln St, Seattle, WA 98101'
 GROUP BY product;
 ```
+<details>
+  <summary><b><i>Show result</i></b></summary>
+    
 | product                | total_quantity | revenue |
 |------------------------|----------------|---------|
 | AA Batteries (4-pack)  | 2              | 7.68    |
+</details>
 
 <br>
 
@@ -139,9 +163,13 @@ WHERE Feb.Quantity>2
     AND length(orderid) = 6
     AND orderid <> 'Order ID';
 ```
+<details>
+  <summary><b><i>Show result</i></b></summary>
+    
 | acctnum | avg_amount_spent       |
 |---------|------------------------|
 | 278     | 13.82794964028773      |
+</details>
 
 <br>
 
@@ -154,6 +182,9 @@ FROM BIT_DB.FebSales
 WHERE location like '%Los Angeles%'
 GROUP BY Product;
 ```
+<details>
+  <summary><b><i>Show result</i></b></summary>
+    
 | Product                    | total_february_sales |
 |----------------------------|----------------------|
 | 20in Monitor               | 44                   |
@@ -175,6 +206,7 @@ GROUP BY Product;
 | Vareebadd Phone            | 25                   |
 | Wired Headphones           | 191                  |
 | iPhone                     | 71                   |
+</details>
 
 <br>
 
@@ -190,12 +222,16 @@ WHERE location like '%NY%'
 GROUP BY location
 HAVING COUNT(orderID) > 2;
 ```
+<details>
+  <summary><b><i>Show result</i></b></summary>
+    
 | location                               | total_january_orders |
 |----------------------------------------|----------------------|
 | 148 Elm St, New York City, NY 10001    | 3                    |
 | 515 Lincoln St, New York City, NY 10001| 3                    |
 | 916 Pine St, New York City, NY 10001   | 3                    |
 | 961 Jefferson St, New York City, NY 10001 | 4                  |
+</details>
 
 <br>
 
@@ -208,11 +244,15 @@ FROM BIT_DB.FebSales
 WHERE Product like '%Headphones%'
 GROUP BY Product;
 ```
+<details>
+  <summary><b><i>Show result</i></b></summary>
+    
 | Product                    | quantity |
 |----------------------------|----------|
 | Apple Airpods Headphones   | 1013     |
 | Bose SoundSport Headphones | 844      |
 | Wired Headphones           | 1282     |
+</details>
 
 <br>
 
@@ -226,9 +266,13 @@ ON FEB.orderid = cust.order_id
 WHERE LENGTH(orderid) = 6 
     AND orderid <> 'Order ID';
 ```
+<details>
+  <summary><b><i>Show result</i></b></summary>
+    
 | avg_spent_per_account |
 |-----------------------|
 | 190.00034676304287    |
+</details>
 
 <br>
 
@@ -242,9 +286,13 @@ ON FEB.orderid = cust.order_id
 WHERE LENGTH(orderid) = 6 
     AND orderid <> 'Order ID';
 ```
+<details>
+  <summary><b><i>Show result</i></b></summary>
+    
 | avg_quantity_items_purchased |
 |----------------------------|
 | 1                          |
+</details>
 
 <br>
 
@@ -260,6 +308,12 @@ GROUP BY Product
 ORDER BY revenue DESC
 LIMIT 1
 ```
+<details>
+  <summary><b><i>Show result</i></b></summary>
+    
 | Product            | revenue |
 |--------------------|---------|
 | Macbook Pro Laptop | 399500  |
+</details>
+
+<br>
