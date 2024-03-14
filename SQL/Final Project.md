@@ -8,17 +8,18 @@
 <br>
 
 ### What is the total revenue from all invoices?
-
-
 ```SQL
 SELECT
     ROUND(SUM(invoices.total)) AS "TotalRevenue"
 FROM invoices;
 ```
+<details>
+  <summary><b><i>Show result</i></b></summary>
+  
 | TotalRevenue |
 |--------------|
 | 2329         |
-
+</details>
 
 <br>
 
@@ -33,6 +34,9 @@ ON genres.GenreId = tracks.GenreId
 GROUP BY genres.Name
 ORDER BY genres.Name;
 ```
+<details>
+  <summary><b><i>Show result</i></b></summary>
+  
 | Genre             | TotalTracks |
 |:------------------|------------:|
 | Alternative       | 40          |
@@ -60,6 +64,7 @@ ORDER BY genres.Name;
 | Soundtrack        | 43          |
 | TV Shows          | 93          |
 | World             | 28          |
+</details>
 
 <br>
 
@@ -84,6 +89,9 @@ FROM TrackSales
 ORDER BY TotalSold DESC
 LIMIT 5;
 ```
+<details>
+  <summary><b><i>Show result</i></b></summary>
+  
 | TrackId | Name             | TotalSold |
 |---------|------------------|-----------|
 | 2       | Balls to the Wall| 2         |
@@ -91,6 +99,7 @@ LIMIT 5;
 | 9       | Snowballed       | 2         |
 | 20      | Overdose         | 2         |
 | 32      | Deuces Are Wild  | 2         |
+</details>
 
 <br>
 
@@ -114,6 +123,9 @@ GROUP BY customers.CustomerId
 ORDER BY TotalSpent DESC
 Limit 5;
 ```
+<details>
+  <summary><b><i>Show result</i></b></summary>
+  
 | CustomerId | FirstName   | LastName    | Email                        | TotalSpent | DiscountCode             |
 |------------|-------------|-------------|------------------------------|------------|--------------------------|
 | 6          | Helena      | Holý        | hholy@gmail.com              | 49.62      | 3dc70-2eb90-ea0d0-7eb4b  |
@@ -121,3 +133,6 @@ Limit 5;
 | 57         | Luis        | Rojas       | luisrojas@yahoo.cl           | 46.62      | 3d65b-605ce-651ef-b416d  |
 | 45         | Ladislav    | Kovács      | ladislav_kovacs@apple.hu     | 45.62      | 51f33-26e82-60e75-743f5  |
 | 46         | Hugh        | O'Reilly    | hughoreilly@apple.ie         | 45.62      | 82f5f-3905b-f5312-2f57f  |
+</details>
+
+<br>
