@@ -12,6 +12,9 @@ This repository contains examples of SQL I've written. Feel free to take a look 
 > - 🌎 I reside in **Virginia**
 > - 🧠 I enjoy learning **SQL, Tableau, Python**
 > - 👨‍💻 My SQL projects are available [here](https://github.com/chrisburton/chrisburton/tree/main/SQL)
-> - 🤝 Let's connect on **[linkedin](https://www.linkedin.com/in/imchrisburton)** or by **[email](mailto:chris@chrisburton.me)**
+
+<br>
+
+Let's connect on **[LinkedIn](https://www.linkedin.com/in/imchrisburton)** or contact me by **[email](mailto:chris@chrisburton.me)**
 
 <br>
