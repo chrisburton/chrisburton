@@ -3,15 +3,30 @@
 <br>
 
 # <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" alt="👋" width="28"> &nbsp; Hi, I'm Chris 
+
 ### Welcome to my SQL Portfolio!
 This repository contains examples of SQL I've written. Feel free to take a look and reach out if you have any questions.
 
+<br><br>
+
+### Featured Projects
 <br>
+
+
+| Project Name | Description | Link |
+|:------------:|-------------|:----:|
+| Superstore                 | Collects information from a superstore database, focusing on item listings, prices, stock levels, and customer ratings across various categories. | [View](https://github.com/chrisburton/chrisburton/blob/main/SQL/Superstore) |
+| Fortune 500                | Explores the databse of Fortune companies, examining employee tenure, revenue categories, maternity leave standards, and the relationship between healthcare benefits, paid time off, and employee retention across different sectors. | [View](https://github.com/chrisburton/chrisburton/blob/main/SQL/Fortune%20500%20Analytics.md) |
+| Netflix                    | Extracts various insights from a Netflix titles database, focusing on content counts, recent additions, sorting, directorship, and historical records | [View](https://github.com/chrisburton/chrisburton/blob/main/SQL/Netflix%20Analytics.md) |
+| Spotify                    | Analyzes data from a Spotify dataset, focusing on artist popularity, song duration, energy levels, and emotional valence. | [View](https://github.com/chrisburton/chrisburton/blob/main/SQL/Spotify%20Analytics) |
+| Customer & Order Analytics | Examines sales data from a database, calculating totals, identifying product trends, and analyzing customer behaviors across specific periods and locations, focusing on metrics like order counts, revenue generation, and product popularity. | [View](https://github.com/chrisburton/chrisburton/blob/main/SQL/Customer%20%26%20Order%20Analytics.md) |
+| Final Project | Analyzes a music store database to deliver insights on financial performance, music genre preferences, top-selling tracks, and customer spending behaviors.  | [View](https://github.com/chrisburton/chrisburton/blob/main/SQL/Final%20Project.md) |
+
+<br><br>
 
 > [!NOTE]
 > - 🌎 I reside in **Virginia**
 > - 🧠 I enjoy learning **SQL, Tableau, Python**
-> - 👨‍💻 My SQL projects are available **[here](https://github.com/chrisburton/chrisburton/tree/main/SQL)**
 > - 📊 My Tableau portfolio is **[here](https://public.tableau.com/app/profile/chrisburton/vizzes)**
 
 <br>
