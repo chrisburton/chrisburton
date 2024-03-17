@@ -7,11 +7,11 @@
 ### Welcome to my SQL Portfolio!
 This repository contains examples of SQL I've written. Feel free to take a look and reach out if you have any questions.
 
-<br><br>
-
-### Featured Projects
 <br>
 
+### Featured Projects
+
+<br>
 
 | Project Name | Description | Link |
 |:------------:|-------------|:----:|
