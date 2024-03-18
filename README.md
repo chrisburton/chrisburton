@@ -10,6 +10,10 @@ You can find my Tableau portfolio **[here](https://public.tableau.com/app/profil
 
 <br>
 
+### Featured Projects
+
+<br>
+
 | Project Name | Description | Link |
 |:------------:|-------------|:----:|
 | Superstore                 | Collects information from a superstore database, focusing on item listings, prices, stock levels, and customer ratings across various categories. | [View](https://github.com/chrisburton/chrisburton/blob/main/SQL/Superstore.md) |
