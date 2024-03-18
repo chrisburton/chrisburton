@@ -18,7 +18,7 @@ GROUP BY industry
 ORDER BY avg_tenure DESC;
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
 
 | industry            | avg_tenure |
 |---------------------|-----------:|
@@ -47,7 +47,7 @@ FROM fortune_companies
 ORDER BY revenue DESC;
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
   
 | company_name                | industry            | revenue | revenue_threshold |
 |-----------------------------|---------------------|--------:|------------------:|
@@ -112,7 +112,7 @@ FROM fortune_companies
 ORDER BY maternity_leave_weeks DESC;
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
 
 | company_name              | maternity_leave_weeks | maternity_leave_rating |
 |---------------------------|:---------------------:|-----------------------:|
@@ -176,7 +176,7 @@ GROUP BY industry
 ORDER BY avg_employee_tenure DESC;
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
   
 | industry            | paid_time_off_days | avg_employee_tenure |
 |---------------------|-------------------:|--------------------:|
