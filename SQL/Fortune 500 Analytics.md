@@ -1,5 +1,5 @@
 # Fortune 500 Analytics
-Dataset: **[db-fiddle](https://www.db-fiddle.com/f/saxdDCCyos6z6UdpjeEXSJ/0)**
+Dataset: [db-fiddle](https://www.db-fiddle.com/f/saxdDCCyos6z6UdpjeEXSJ/0)
 
 <br>
 
