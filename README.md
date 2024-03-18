@@ -12,7 +12,7 @@ You can find my Tableau portfolio **[here](https://public.tableau.com/app/profil
 
 | Project Name | Description | Link |
 |:------------:|-------------|:----:|
-| Superstore                 | Collects information from a superstore database, focusing on item listings, prices, stock levels, and customer ratings across various categories. | [View](https://github.com/chrisburton/chrisburton/blob/main/SQL/Superstore) |
+| Superstore                 | Collects information from a superstore database, focusing on item listings, prices, stock levels, and customer ratings across various categories. | [View](https://github.com/chrisburton/chrisburton/blob/main/SQL/Superstore.md) |
 | Fortune 500                | Explores the databse of Fortune companies, examining employee tenure, revenue categories, maternity leave standards, and the relationship between healthcare benefits, paid time off, and employee retention across different sectors. | [View](https://github.com/chrisburton/chrisburton/blob/main/SQL/Fortune%20500%20Analytics.md) |
 | Netflix                    | Extracts various insights from a Netflix titles database, focusing on content counts, recent additions, sorting, directorship, and historical records | [View](https://github.com/chrisburton/chrisburton/blob/main/SQL/Netflix%20Analytics.md) |
 | Spotify                    | Analyzes data from a Spotify dataset, focusing on artist popularity, song duration, energy levels, and emotional valence. | [View](https://github.com/chrisburton/chrisburton/blob/main/SQL/Spotify%20Analytics.md) |
