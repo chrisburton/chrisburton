@@ -23,7 +23,7 @@ You can find my Tableau portfolio **[here](https://public.tableau.com/app/profil
 | Customer & Order Analytics | Examines sales data from a database, calculating totals, identifying product trends, and analyzing customer behaviors across specific periods and locations, focusing on metrics like order counts, revenue generation, and product popularity. | [View](https://github.com/chrisburton/chrisburton/blob/main/SQL/Customer%20%26%20Order%20Analytics.md) |
 | Final Project | Analyzes a music store database to deliver insights on financial performance, music genre preferences, top-selling tracks, and customer spending behaviors.  | [View](https://github.com/chrisburton/chrisburton/blob/main/SQL/Final%20Project.md) |
 
-<br>
+<br><br>
 
 Let's connect on **[LinkedIn](https://www.linkedin.com/in/imchrisburton)** or contact me by **[email](mailto:chris@chrisburton.me)**
 
