@@ -1,9 +1,10 @@
-# Customer Order Analytics
-In this SQL, I'm querying a database with multiple tables to quantify statistics about customer and order data.
+# Customer & Order Analytics
+Dataset: Private license
 
 <br>
 
 ## Analysis
+Examines sales data from a database, calculating totals, identifying product trends, and analyzing customer behaviors across specific periods and locations, focusing on metrics like order counts, revenue generation, and product popularity.
 
 <br>
 
@@ -16,7 +17,7 @@ WHERE length(orderid) = 6
     AND orderid <> 'Order ID';
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
     
 | total_january_sales |
 |----------------|
@@ -35,7 +36,7 @@ WHERE Product='iPhone'
     AND orderid <> 'Order ID';
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
 
 | total_january_iphone_sales |
 |----------------|
@@ -55,7 +56,7 @@ WHERE length(orderid) = 6
     AND orderid <> 'Order ID';
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
     
 | acctnum   |
 |:---------:|
@@ -84,7 +85,7 @@ ORDER BY price ASC
 LIMIT 1;
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
     
 | product                | price |
 |------------------------|-------|
@@ -102,7 +103,7 @@ FROM BIT_DB.JanSales
 GROUP BY product;
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
     
 | product                   | revenue            |
 |---------------------------|--------------------|
@@ -142,7 +143,7 @@ WHERE location = '548 Lincoln St, Seattle, WA 98101'
 GROUP BY product;
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
     
 | product                | total_quantity | revenue |
 |------------------------|----------------|---------|
@@ -164,7 +165,7 @@ WHERE Feb.Quantity>2
     AND orderid <> 'Order ID';
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
     
 | acctnum | avg_amount_spent       |
 |---------|------------------------|
@@ -183,7 +184,7 @@ WHERE location like '%Los Angeles%'
 GROUP BY Product;
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
     
 | Product                    | total_february_sales |
 |----------------------------|----------------------|
@@ -223,7 +224,7 @@ GROUP BY location
 HAVING COUNT(orderID) > 2;
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
     
 | location                               | total_january_orders |
 |----------------------------------------|----------------------|
@@ -245,7 +246,7 @@ WHERE Product like '%Headphones%'
 GROUP BY Product;
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
     
 | Product                    | quantity |
 |----------------------------|----------|
@@ -267,7 +268,7 @@ WHERE LENGTH(orderid) = 6
     AND orderid <> 'Order ID';
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
     
 | avg_spent_per_account |
 |-----------------------|
@@ -287,7 +288,7 @@ WHERE LENGTH(orderid) = 6
     AND orderid <> 'Order ID';
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
     
 | avg_quantity_items_purchased |
 |----------------------------|
@@ -309,7 +310,7 @@ ORDER BY revenue DESC
 LIMIT 1
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
     
 | Product            | revenue |
 |--------------------|---------|
