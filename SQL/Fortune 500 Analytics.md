@@ -1,9 +1,10 @@
 # Fortune 500 Analytics
-This analysis utilized the following Fortune 500 dataset: **[db-fiddle](https://www.db-fiddle.com/f/saxdDCCyos6z6UdpjeEXSJ/0)**
+Dataset: **[db-fiddle](https://www.db-fiddle.com/f/saxdDCCyos6z6UdpjeEXSJ/0)**
 
 <br>
 
 ## Analysis
+Explores the databse of Fortune companies, examining employee tenure, revenue categories, maternity leave standards, and the relationship between healthcare benefits, paid time off, and employee retention across different sectors.
 
 <br>
 
