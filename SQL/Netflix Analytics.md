@@ -1,11 +1,10 @@
 # Netflix Analytics 
-PostgreSQL was used to answer specific questions about TV and Movie content hosted on Netflix.
-
 Dataset: [db-fiddle](https://www.db-fiddle.com/f/5XjDEBzg6DR1XzKVwNapdD/0)
 
 <br>
 
 ## Analysis    
+Extracts various insights from a Netflix titles database using PostgreSQL, focusing on content counts, recent additions, sorting, directorship, and historical records.
 
 <br>
 
@@ -17,7 +16,7 @@ FROM "netflix_titles_info" titles
 WHERE titles.type = 'Movie';
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
 
 | count |
 |:-----:|
@@ -33,7 +32,7 @@ SELECT
 FROM "netflix_titles_info";
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
     
 | max                  |
 |---------------------|
@@ -50,7 +49,7 @@ FROM "netflix_titles_info"
 ORDER BY title ASC;
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
 
 | title                                               |
 |-----------------------------------------------------|
@@ -88,7 +87,7 @@ ON titles.show_id = people.show_id
 WHERE titles.title = 'The Starling';
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
 
 | director       |
 |----------------|
@@ -108,7 +107,7 @@ ORDER BY release_year ASC
 LIMIT 1;
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
 
 | title   | release_year |
 |---------|:------------:|
