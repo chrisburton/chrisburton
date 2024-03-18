@@ -4,6 +4,7 @@
 <br>
 
 ## Analysis
+Analyzes a music store database to deliver insights on financial performance, music genre preferences, top-selling tracks, and customer spending behaviors.
 
 <br>
 
@@ -14,7 +15,7 @@ SELECT
 FROM invoices;
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
   
 | TotalRevenue |
 |--------------|
@@ -35,7 +36,7 @@ GROUP BY genres.Name
 ORDER BY genres.Name;
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
   
 | Genre             | TotalTracks |
 |:------------------|------------:|
@@ -90,7 +91,7 @@ ORDER BY TotalSold DESC
 LIMIT 5;
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
   
 | TrackId | Name             | TotalSold |
 |---------|------------------|-----------|
@@ -124,7 +125,7 @@ ORDER BY TotalSpent DESC
 Limit 5;
 ```
 <details>
-  <summary><b><i>Show result</i></b></summary>
+  <summary><i>Show result</i></summary>
   
 | CustomerId | FirstName   | LastName    | Email                        | TotalSpent | DiscountCode             |
 |------------|-------------|-------------|------------------------------|------------|--------------------------|
