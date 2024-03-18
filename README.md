@@ -5,11 +5,8 @@
 # <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" alt="👋" width="28"> &nbsp; Hi, I'm Chris 
 
 ### Welcome to my SQL Portfolio!
-This repository contains examples of SQL I've written. Feel free to take a look and reach out if you have any questions.
-
-<br>
-
-### Featured Projects
+This repository contains examples of SQL I've written. Feel free to take a look and reach out if you have any questions. 
+You can find my Tableau portfolio **[here](https://public.tableau.com/app/profile/chrisburton/vizzes)**.
 
 <br>
 
@@ -21,13 +18,6 @@ This repository contains examples of SQL I've written. Feel free to take a look 
 | Spotify                    | Analyzes data from a Spotify dataset, focusing on artist popularity, song duration, energy levels, and emotional valence. | [View](https://github.com/chrisburton/chrisburton/blob/main/SQL/Spotify%20Analytics) |
 | Customer & Order Analytics | Examines sales data from a database, calculating totals, identifying product trends, and analyzing customer behaviors across specific periods and locations, focusing on metrics like order counts, revenue generation, and product popularity. | [View](https://github.com/chrisburton/chrisburton/blob/main/SQL/Customer%20%26%20Order%20Analytics.md) |
 | Final Project | Analyzes a music store database to deliver insights on financial performance, music genre preferences, top-selling tracks, and customer spending behaviors.  | [View](https://github.com/chrisburton/chrisburton/blob/main/SQL/Final%20Project.md) |
-
-<br><br>
-
-> [!NOTE]
-> - 🌎 I reside in **Virginia**
-> - 🧠 I enjoy learning **SQL, Tableau, Python**
-> - 📊 My Tableau portfolio is **[here](https://public.tableau.com/app/profile/chrisburton/vizzes)**
 
 <br>
 
