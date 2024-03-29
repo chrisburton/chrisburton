@@ -2,7 +2,7 @@
 
 <br>
 
-# <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" alt="👋" width="28"> &nbsp; Hi, I'm Chris 
+# <picture><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" alt="👋" width="28"></picture> &nbsp; Hi, I'm Chris 
 
 ### Welcome to my SQL Portfolio!
 This repository showcases my SQL projects. Feel free to explore and reach out with any questions. Also, check out my [Tableau portfolio](https://public.tableau.com/app/profile/chrisburton/vizzes).
