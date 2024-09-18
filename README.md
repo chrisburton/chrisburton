@@ -5,7 +5,7 @@
 # <picture><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" alt="👋" width="28"></picture> &nbsp; Hi, I'm Chris 
 
 ### Welcome to my Data Analytics portfolio!
-This repository showcases my SQL projects. Feel free to explore and reach out with any questions. Also, check out my [Tableau portfolio](https://public.tableau.com/app/profile/chrisburton/vizzes).
+This repository showcases projects I completed as part of my Data Analytics certification. Feel free to explore and reach out with any questions. Also, check out my [Tableau portfolio](https://public.tableau.com/app/profile/chrisburton/vizzes).
 
 <br>
 
