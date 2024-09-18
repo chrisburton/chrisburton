@@ -20,9 +20,8 @@ This repository showcases my SQL projects. Feel free to explore and reach out wi
 | Customer & Order Analytics | Examines sales data from a database, calculating totals, identifying product trends, and analyzing customer behaviors across specific periods and locations, focusing on metrics like order counts, revenue generation, and product popularity. | [View](https://github.com/chrisburton/chrisburton/blob/main/SQL/Customer%20%26%20Order%20Analytics.md) |
 | Final Project | Analyzes a music store database to deliver insights on financial performance, music genre preferences, top-selling tracks, and customer spending behaviors.  | [View](https://github.com/chrisburton/chrisburton/blob/main/SQL/Final%20Project.md) |
 
-<br>
+<br><br>
 
-### Let's Connect!
-Reach out on **[LinkedIn](https://www.linkedin.com/in/imchrisburton)**.
+You can find me on **[LinkedIn](https://www.linkedin.com/in/imchrisburton)**.
 
 <br>
