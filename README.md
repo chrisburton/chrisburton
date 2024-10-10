@@ -11,7 +11,7 @@ This repository showcases projects I completed as part of my Data Analytics cert
 
 ### Featured Projects
 
-| Project Name | Description | Link |
+| Project | Description | Link |
 |:------------:|-------------|:----:|
 | Superstore                 | Collects information from a superstore database, focusing on item listings, prices, stock levels, and customer ratings across various categories. | [View](https://github.com/chrisburton/chrisburton/blob/main/SQL/Superstore.md) |
 | Fortune 500                | Explores the databse of Fortune companies, examining employee tenure, revenue categories, maternity leave standards, and the relationship between healthcare benefits, paid time off, and employee retention across different sectors. | [View](https://github.com/chrisburton/chrisburton/blob/main/SQL/Fortune%20500%20Analytics.md) |
