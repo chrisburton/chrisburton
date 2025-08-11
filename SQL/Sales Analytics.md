@@ -1,4 +1,4 @@
-# Customer & Order Analytics
+# Sales Analytics
 Dataset: Private license
 
 <br>
