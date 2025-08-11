@@ -1,7 +1,4 @@
 # Final SQL Project
-<img src="https://cdn.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/https://www.filepicker.io/api/file/sF9aIU7TqOLNWWSSNrOp">
-
-<br>
 
 ## Analysis
 Analyzes a music store database to deliver insights on financial performance, music genre preferences, top-selling tracks, and customer spending behaviors.
