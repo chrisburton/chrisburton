@@ -5,11 +5,11 @@
 
 <br>
 
-👨‍💼 I’m a Business Analyst with a background in I/O Psychology. I love using data to understand how people work, make decisions, and drive organizational improvement.
+* 👨‍💼 I’m a Business Analyst with a background in I/O Psychology. I love using data to understand how people work, make decisions, and drive organizational improvement.
 
-👨‍💻 I work with Python, [SQL](SQL), and Tableau. I’m also expanding my knowledge in R, ML, and AI.
+* 👨‍💻 I work with Python, [SQL](SQL), and Tableau. I’m also expanding my knowledge in R, ML, and AI.
 
-🧠 I’ve mentored peers in analytics and enjoy helping others grow their technical and professional skills. I am always open to collaborating and sharing knowledge.
+* 🧠 I’ve mentored peers in analytics and enjoy helping others grow their technical and professional skills. I am always open to collaborating and sharing knowledge.
 
 <br>
 
