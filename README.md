@@ -6,7 +6,7 @@
 
 <br>
 
-👨‍💼 I’m a Business Analyst with a background in I/O Psychology.
+👨‍💼 I’m a Business Analyst and graduate student attending the Mason School of Business.
 
 👨‍💻 I work with Python, R, [SQL](../../../sql-projects), and data visualization tools (Tableau, Power BI, Excel), with a focus on applied mathematics, statistics, and decision modeling.
 
