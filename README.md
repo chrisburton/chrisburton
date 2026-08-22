@@ -8,7 +8,7 @@
 
 👨‍💼 I’m a Business Analyst and graduate student attending the Raymond A. Mason School of Business.
 
-👨‍💻 I work with Python, R, [SQL](../../../sql-projects), and data visualization tools (Tableau, Power BI, Excel), with a focus on applied mathematics, statistics, and decision modeling.
+👨‍💻 I work with Python, R, [SQL](../../../sql-projects), and data visualization tools (Tableau, Power BI, Excel).
 
 🤝 I mentor in analytics and enjoy helping others grow their technical and professional skills. I am always open to collaborating and sharing knowledge.
 
